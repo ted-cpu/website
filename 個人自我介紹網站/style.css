@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("img/網頁背景.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.body{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "sans-serif";
+}
+/*標題*/
+header{
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.navBar{
+    width: 100%;
+    background-color: #1fc4b3;
+}
+.navBar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.navBar ul li{
+    margin-left: 10px;
+}
+.navBar ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+.navBar ul li a:hover{
+    background-color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+}
+/*內容*/
+content{
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+}
+.personal-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 10px double #32a1ce;;
+    margin: 0 10px;
+    padding: 10px;
+}
+.personal-info-content{
+    list-style-type: none;
+    font-weight:bold;
+}
+.myPhoto{
+    display: inline-block;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+}
+.myPhoto > img{
+    width: 100%;
+    border-radius: 50%;
+}
+.content{
+    border: 1px solid green;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 20px 0 20px 0;
+    padding: 10px;
+}
+.content:last-child{
+    margin-bottom: 0;
+}
+.content p{
+    line-height: 25px;
+}
+.content h2{
+    margin-bottom: 10px;
+}
+.content:hover{
+    background-color: blueviolet;
+}
+/*頁尾*/
+.callMe{
+    background-color: rgb(44, 41, 41);
+    color: white;
+    padding: 10px
+}
+.callMe a{
+    color: rgb(137, 137, 222);
+}
