@@ -86,6 +86,40 @@ body{
 .images-exhibition #last, #next:hover{
     cursor: pointer;
 }
+.news{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.news hr{
+    border: 1px solid #FFB347;
+}
+.square1{
+    margin-top: 20px;
+    display: flex;
+}
+.square1 article{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.square1 article a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+.square1 article a:hover{
+    border:3px solid #FFB347;
+}
+.square1 article a img{
+    width: 365px;
+}
+.square1 article a h3{
+    color: rgb(150, 4, 4);
+}
+.square1 article a p{
+    color: black;
+}
 /*頁尾*/
 footer{
     margin-top: 10px; /*記得刪除*/
