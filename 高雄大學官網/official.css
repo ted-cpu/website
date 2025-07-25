@@ -95,30 +95,34 @@ body{
 .news hr{
     border: 1px solid #FFB347;
 }
-.square1{
+.square1, .square2{
     margin-top: 20px;
     display: flex;
 }
-.square1 article{
+.square1 article,.square2 article{
     margin-left: 10px;
     margin-right: 10px;
 }
-.square1 article a{
+.square1 article a, .square2 article a{
     display: block;
     text-decoration: none;
     padding: 10px;
 }
-.square1 article a:hover{
+.square1 article a:hover, .square2 article a:hover{
     border:3px solid #FFB347;
 }
-.square1 article a img{
+.square1 article a img, .square2 article a img{
     width: 365px;
 }
-.square1 article a h3{
+.square1 article a h3, .square2 article a h3{
     color: rgb(150, 4, 4);
 }
-.square1 article a p{
+.square1 article a p, .square2 article a p{
     color: black;
+}
+.square2 article a{
+    display: block;
+    margin-top: 10px;
 }
 /*頁尾*/
 footer{
