@@ -5,6 +5,7 @@
 body{
     font-family: "Microsoft JhengHei";
 }
+/*標題*/
 .navigation1{
     background-color: grey;
     padding: 10px;
@@ -62,6 +63,28 @@ body{
 }
 .navigation3 ul li:hover{
     background-color: white;
+}
+/*內容*/
+.images-exhibition{
+    display: flex;
+    background-image: url("https://www.nuk.edu.tw/var/file/0/1000/randimg/mobileadv_2795_9780389_03801.jpg");
+    background-size: cover;
+    width: 1170px;
+    height: 448px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.images-exhibition #last, #next{
+    font-size: 50px;
+    padding: 10px;
+    background: none;
+    border: none;
+    color: rgb(2, 2, 92);
+}
+.images-exhibition #last, #next:hover{
+    cursor: pointer;
 }
 /*頁尾*/
 footer{
